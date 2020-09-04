@@ -104,5 +104,10 @@ func (c *Client) doRequest(ctx context.Context, req ValidateTokenRequest) (Token
 		return TokenResponse{}, err
 	}
 
+	err = successRes.parseClaims()
+	if err != nil {
+		return successRes, err
+	}
+
 	return successRes, nil
 }

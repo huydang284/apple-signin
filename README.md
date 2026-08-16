@@ -1,4 +1,6 @@
 # Apple signin
+# Apple signin
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/huydang)
 
 Apple Signin supports validating app token, web token or refresh token of an Apple user. 
 
